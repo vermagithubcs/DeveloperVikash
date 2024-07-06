@@ -295,6 +295,20 @@ background-color: #ff0d00;
   text-align: center;
   font-size: 17px;
 }
+.portfolio button{
+  position: relative;
+  top: 15rem;
+  left: 45rem;
+  padding: 15px 25px;
+  background-color: #cf2e2e;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+}
+.portfolio button:hover{
+  background-color: #ff0d00;
+}
 
 /* ----------Contact-------- */
 .contact{
@@ -416,7 +430,6 @@ background-color: #ff0d00;
 }
 
 .portfolio .projects{
-  display: flex;
   justify-content: space-around;
   align-items: center;
   height: 50vh;
