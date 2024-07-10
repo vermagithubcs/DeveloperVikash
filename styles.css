@@ -21,9 +21,11 @@
   /* background-color: var(--main-color); */
 }
 .navbar {
-  height: 50px;
+  position: fixed;
+  height: 80px;
   width: 100%;
-  background-color: var(--text-color);
+  background-color: var(--main-text-color);
+  z-index: 10;
 }
 .navbar ul {
   display: flex;
@@ -48,10 +50,10 @@
   color: #cf2e2e;
 }
 .navbar li a {
-  color: #222;
+  color: #fff;
 }
 .navbar li a:hover {
-  color: var(--main-color);
+  color: #ff0d00;
 }
 
 .main-section h2{
@@ -186,17 +188,23 @@ background-color: #ff0d00;
   font-family: "Playfair Display", serif;
   text-align: center;
   position: relative;
-  top: 20px;
+  top: 4rem;
 }
 .services p{
   position: relative;
-  top: 30px;
+  top: 5rem;
   text-align: center;
+}
+.services .frontend-services p{
+  top: 2rem;
+}
+.services .full-Stack-services p{
+  top: 2rem;
 }
 .services .services-main{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 430px;
   width: 80rem;
   /* background-color: blue; */
@@ -298,12 +306,14 @@ background-color: #ff0d00;
 .portfolio button{
   position: relative;
   top: 15rem;
-  left: 45rem;
+  left: 43rem;
   padding: 15px 25px;
   background-color: #cf2e2e;
   border-radius: 10px;
   font-size: 1.2rem;
   cursor: pointer;
+}
+.portfolio button a{
   color: white;
 }
 .portfolio button:hover{
@@ -430,6 +440,7 @@ background-color: #ff0d00;
 }
 
 .portfolio .projects{
+  display: flex;
   justify-content: space-around;
   align-items: center;
   height: 50vh;
