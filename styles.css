@@ -95,7 +95,7 @@
 .social-media a:hover{
   color: #cf332b;
 }
-.main-section button{
+.main-section button a{
   padding: 10px 15px;
   font-size: 20px;
   color: #fff;
@@ -107,7 +107,7 @@
   top: 3rem;
   cursor: pointer;
 }
-.main-section button:hover{
+.main-section button a:hover{
 background-color: #ff0d00;
 }
 .about-design{
@@ -203,8 +203,11 @@ background-color: #ff0d00;
 }
 .services .services-main{
   display: flex;
+  position: relative;
+  left: 7rem !important;
   align-items: center;
   justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   height: 430px;
   width: 80rem;
   /* background-color: blue; */
@@ -218,11 +221,15 @@ background-color: #ff0d00;
   background-color: #dfd9d9;
   border-radius: 15px;
 }
-.services .full-Stack-services{
+.services .full-Stack-services,.res-design{
   height: 21rem;
   width: 20rem;
   background-color: #dfd9d9;
   border-radius: 15px;
+}
+.services .res-design p{
+  position: relative;
+  top:1.5rem;
 }
 .services .frontend-services img{
   width: 70px;
@@ -238,14 +245,14 @@ background-color: #ff0d00;
   font-size: 24px;
   font-family: "Playfair Display", serif;
 }
-.services .full-Stack-services img{
+.services .full-Stack-services img,.res-design img{
   width: 70px;
   height: 70px;
   position: relative;
   left: 7rem;
   top: 10px;
 }
-.services .full-Stack-services h2{
+.services .full-Stack-services h2,.res-design h2{
   text-align: center;
   position: relative;
   top: 1rem;
@@ -268,7 +275,7 @@ background-color: #ff0d00;
 .services .frontend-services .circle:hover{
   color: #ff0d00;
 }
-.services .full-Stack-services .circle{
+.services .full-Stack-services .circle,.res-design .circle{
   height: 40px;
   width: 40px;
   border: 2px solid black;
@@ -281,7 +288,7 @@ background-color: #ff0d00;
   justify-content: center;
   cursor: pointer;
 }
-.services .full-Stack-services .circle:hover{
+.services .full-Stack-services .circle:hover,.res-design .circle:hover{
   color: #ff0d00;
 }
 /* Portfolio Design */

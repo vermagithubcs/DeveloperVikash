@@ -15,28 +15,29 @@
   --main-color: #7b4bb7;
   --main-text-color: #002d5b;
 }
-.about-page h1 {
+#about{
+  height: 100vh;
+  width: 100%;
+  color: var(--text-color);
+  background-color: var(--main-text-color);
+}
+#about #main-about{
+  position: relative;
+  top: 10%;
+  left: 10%;
+  height: 90vh;
+  width: 80%;
+}
+#about #main-about h1{
   text-align: center;
   position: relative;
-  top: 3rem;
+  top: 5rem;
   font-size: 3rem;
-  color: var(--main-text-color);
+  color: #cf2e2e;
 }
-.about-page .line {
-  height: 2px;
-  width: 110px;
+#about #main-about h2{
   position: relative;
-  top: 3.2rem;
-  left: 39rem;
-  background-color: blue;
-}
-.container{
-    height: 130vh;
-    width: 100%;
-    background-color: red;
-}
-.container .about-image{
-    height: 30vh;
-    width: 100%;
-    background-color: aqua;
+  top: 10rem;
+  text-align: center;
+  font-size: 1.2rem;
 }
