@@ -5,5 +5,40 @@
     border: none;
     outline: none;
     list-style: none;
+    text-decoration: none;
 }
-
+.main{
+    height: 150vh;
+    width: 100vw;
+    background-color: #222;
+}
+#header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5vh;
+    height: 15vh;
+    border-bottom: 2px solid #fff;
+}
+#header h1 a{
+    color: #fff;
+    font-size: 2.2rem;
+}
+.main #projects #pro1 img{
+    height: 17rem;
+    border: 2px solid #fff;
+}
+.main #projects #pro1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+.main #projects #pro2 img{
+    height: 17rem;
+    border: 2px solid #fff;
+}
+.main #projects #pro2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
